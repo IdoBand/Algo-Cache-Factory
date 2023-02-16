@@ -4,7 +4,7 @@ import {CacheLRU} from "./CacheLRU";
 
 const testLRU = new CacheLRU(3);
 
-describe('this is for Cache LRU, __capacity = 3', () => {
+describe('this is for Cache LRU, _capacity = 3', () => {
     it(`getElement, should return undefined for getting non-existing key 1`, () => {
         const res = testLRU.getElement(1);
         expect(res).to.equals(undefined);

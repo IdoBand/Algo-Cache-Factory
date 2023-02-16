@@ -1,11 +1,11 @@
 {
-  "name": "backend-project",
+  "name": "Algo-Cache-Factory",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsnd --respawn src/Cache/CacheRandom/CacheRandom",
-    "test": "mocha -r ts-node/register src/Cache/CacheRandom/*.test.ts"
+    "start": "tsnd --respawn src/Cache/CacheFIFO/LinkedList.ts",
+    "test": "mocha -r ts-node/register src/Cache/CacheFIFO/*.test.ts"
   },
   "keywords": [],
   "author": "",

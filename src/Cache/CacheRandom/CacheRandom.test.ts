@@ -4,7 +4,7 @@ import {CacheRandom} from "./CacheRandom";
 
 const testRandom = new CacheRandom(3);
 
-describe('this is for Cache LRU, __capacity = 3', () => {
+describe('this is for Cache Random, _capacity = 3', () => {
     it(`getElement, should return undefined for getting non-existing key 1`, () => {
         const res = testRandom.getElement(1);
         expect(res).to.equals(undefined);
