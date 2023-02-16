@@ -1,5 +1,5 @@
-import { ICacheAlgo } from "interface/ICacheAlgo";
-import { AbstractCacheAlgo } from "../../AbstractCacheAlgo";
+import { ICacheAlgo } from "Cache/interface/ICacheAlgo";
+import { AbstractCacheAlgo } from "../AbstractCacheAlgo";
 
 export class CacheRandom<K,V> extends AbstractCacheAlgo<K,V> implements ICacheAlgo<K,V> {
     #cacheStorage = new Map<K,V>();

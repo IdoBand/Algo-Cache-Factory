@@ -1,5 +1,5 @@
-import {AbstractCacheAlgo} from "../../AbstractCacheAlgo";
-import {ICacheAlgo} from "../../interface/ICacheAlgo";
+import {AbstractCacheAlgo} from "../AbstractCacheAlgo";
+import {ICacheAlgo} from "../interface/ICacheAlgo";
 import {DoublyLinkedList, DoublyLinkedListNode} from "./DoublyLinkedListNode";
 
 export class CacheLRU<K, V> extends AbstractCacheAlgo<K, V> implements ICacheAlgo<K, V> {
