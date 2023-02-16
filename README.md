@@ -1,4 +1,4 @@
-This is a small project that shows the implementation of **Factory design pattern** as well as implementation of various **cache algorithms** such as LRU, Random, and FIFO.
+This is a small project that shows the implementation of <h4>**Factory design pattern**</h4> as well as implementation of various <h4>**cache algorithms**</h4> such as LRU, Random, and FIFO.
 
 Along this project I'll use suitable data structures and OOP approach so that it will be as efficient as possible.
 
